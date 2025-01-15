@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeanBox</title>
+    <link rel="icon" href="icon.png" type="heart/jpg">
+    <link rel="icon" href="logo.jpg" type="heart/jpg">
+    <link rel="stylesheet" href="login.css">
+    
+</head>
+<body >
+    <div class="wrapper">
+        <form action="php.php" method="post">
+        <h1>login</h1>
+        <div class="inputbox">
+          <input type="email" required="required" name="email" id="email" tabindex="1" placeholder="email">
+         <box-icon name='user' type='solid' color='#906f28' ></box-icon>
+        </div>
+        
+        <div class="inputbox">
+            <input type="password" required="required" name="password" id="password" tabindex="2" placeholder="password">
+            <box-icon type='solid' name='lock-alt'></box-icon>
+        </div>
+        <div class="remember">
+            <label > <input type="checkbox" >Remember me</label>
+        </div>
+        <button onclick="window.location.href='home.html'" class="btn" type="submit">login</button>
+    </form>
+    </div>
+    
+</body>
+</html>

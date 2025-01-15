@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="letsplay.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lets play</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="icon" href="logo.jpg" type="heart/jpg">
+</head>
+<body>
+    
+    <header>
+        <img src="logo.jpg" alt="logo" hight="120" width="120">
+        <h1>LET'S PLAY</h1>
+        <nav class="navigation">
+            
+                
+                <div id="cart-icon">
+                    <a href="home.html">Home<span></span></a>&nbsp;&nbsp;
+                <a href="serveces.html">serveces<span></span></a>&nbsp;&nbsp;
+                    <i class="ri-shopping-bag-2-fill">
+                        <span class="cart-item-count"></span>
+                    </i>
+                    
+                </div>
+                
+            
+        </nav>
+    </header>
+    <div class="content-space">
+        
+        
+            <form action="" method="get" class="search">
+                <label for="search">Search about product</search></label>
+                <input type="search" id="search" name="query" placeholder="Search">
+                <button type="submit">search</button>
+            </form>
+
+           
+        <div class="cart">
+            <h2 class="cart-title">your Cart</h2>
+            <div class="cart-content">
+               <!-- <div class="cart-box">
+                    <img src="gameboy1.jpg.png" alt="" class="cart-img" height="100px" width="40px">
+                    <div class="cart-detail">
+                        <h2 class="cart-product-title">gameboy</h2>
+                        <span class="cart-price">$30</span>
+                        <div class="cart-quantity">
+                            <button id="decrement">-</button>  
+                            <span class="number">1</span> 
+                            <button id="increment">+</button>
+                        </div>
+                    </div>
+                    <i class="ri-delete-bin-line cart-remove"></i>
+                </div>  --> 
+            </div>
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+            <button href="checkout.html" class="btn-buy" >Buy Now</button>
+            <i class="ri-close-circle-line" id="cart-close"></i>
+        </div>
+
+
+            <section class="shop">
+                <h1 class="section-title">Products</h1>
+                <div class="product-content">
+                    <!--product1-->
+                    <div class="product-box">
+                        <div class="img-box">
+                            <img src="gameboy1.jpg.png" alt="gameboy" hight="150" width="150" >
+                        </div>
+                        <h2 class="product-title">gameboy</h2>
+                        <div class="price-and-cart">
+                            <span class="price">$30</span>
+                            <i class="ri-shopping-bag-2-fill add-cart"></i>
+                        </div>
+                    </div>
+                    <!--product 2-->
+                    <div class="product-box">
+                        <div class="img-box">
+                            <img src="playstation1.png" alt="playstation1" hight="150" width="150" >
+                        </div>
+                        <h2 class="product-title">playstation1</h2>
+                        <div class="price-and-cart">
+                            <span class="price">$80</span>
+                            <i class="ri-shopping-bag-2-fill add-cart"></i>
+                        </div>
+                    </div>
+                    <!--product 3-->
+                    <div class="product-box">
+                        <div class="img-box">
+                            <img src="playstation1ArmControler.png" alt="Arm Controler" hight="150" width="150" >
+                        </div>
+                        <h2 class="product-title">Arm Controler</h2>
+                        <div class="price-and-cart">
+                            <span class="price">$20</span>
+                            <i class="ri-shopping-bag-2-fill add-cart"></i>
+                        </div>
+                    </div>
+                    <!--product 4-->
+                    <div class="product-box">
+                        <div class="img-box">
+                            <img src="playstation1withArmControler.jpg" alt="playstation1 with Arm Controler" hight="150" width="150" >
+                        </div>
+                        <h2 class="product-title">playstation1 with Arm Controler</h2>
+                        <div class="price-and-cart">
+                            <span class="price">$90</span>
+                            <i class="ri-shopping-bag-2-fill add-cart"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+    </div>
+    <footer>
+        <small><i>Copyright © 2025 LET'S PLAY</i></small><br>
+        <a href="mailto:letsplay@example.com">letsplay@example.com</a>
+    </footer>
+    <script src="letsplay.js"></script>
+</body>
+</html>
